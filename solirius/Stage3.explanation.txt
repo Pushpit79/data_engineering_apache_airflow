@@ -1,0 +1,18 @@
+1. We define a function called query_films that accepts keyword arguments (**kwargs). Each keyword argument represents a column in the dataset, and the corresponding value or range of values to filter by.
+
+2. Inside the function, we iterate through the keyword arguments and apply filters to the DataFrame based on the provided column-value pairs.
+
+3. We handle different types of values:
+
+    > For lists, we use the isin method to filter by multiple specific values (e.g., genres).
+    > For tuples representing ranges, we use boolean indexing to filter by a range of values (e.g., release years).
+    > For single values, we use equality comparisons to filter by a specific value.
+
+4. We provide example test cases to demonstrate the functionality:
+
+    > Query films directed by Quentin Tarantino released between 1979 and 2000.
+    > Query films directed by George Lucas released after 1990.
+    > Query films with genres "Action" or "Adventure".
+5. We display the results of each query for verification.
+
+This approach allows users to flexibly query the dataset based on any combination of columns and values, providing a reusable and flexible backend for querying functionality.

@@ -1,0 +1,19 @@
+Stage 2 :-->
+
+1. Importing Libraries: We imported the pandas library with the alias pd. This library is used for data manipulation and analysis.
+
+2. Loading the Dataset: We loaded your dataset, which is in Parquet file format, into a DataFrame. A DataFrame is like a table where your data is organized into rows and columns. We named this DataFrame films_df.
+
+3. Defining the Function: We defined a function called find_similar_films. This function takes two parameters: film_id (the ID of the film you want to find similar films for) and threshold (the similarity threshold percentage, which defaults to 50 if not provided).
+
+4. Finding Similar Films: Inside the function, we first retrieve the genres for the film specified by film_id from the DataFrame. We then calculate the similarity score between this film and all other films in the DataFrame based on their genres.
+
+5. Filtering Similar Films: We filter the DataFrame to include only those films whose similarity score is above the provided threshold.
+
+6. Handling Errors: We handle a specific error called KeyError, which might occur if the provided film_id is not found in the DataFrame.
+
+7. Example Usage: We demonstrate how to use the function by specifying a film_id and a threshold. The function returns a DataFrame containing similar films above the threshold.
+
+8. Saving Results to CSV: We save the DataFrame containing the similar films to a CSV file named "similar_films.csv" using the to_csv method. This CSV file will contain information about the similar films, including their IDs, genres, and similarity scores.
+
+9. Confirmation Message: Finally, we print a message to confirm that the similar films have been saved to the CSV file.

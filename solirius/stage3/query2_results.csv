@@ -1,0 +1,4 @@
+id,title,director,cast,country,release_year,adult,durationMins,genres,description
+2864,Star Wars: Revenge of the Sith (Episode III),George Lucas,"Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid, Frank Oz, Jimmy Smits",United States,2005,False,140,"Action, Adventure, Sci-Fi","As the Republic falls, Anakin Skywalker becomes the evil Darth Vader."
+4802,Star Wars: Attack of the Clones (Episode II),George Lucas,"Ewan McGregor, Natalie Portman, Hayden Christensen, Frank Oz, Ian McDiarmid, Pernilla August",United States,2002,False,143,"Action, Adventure, Sci-Fi",Young Anakin and Padmé fall in love as galactic war looms.
+5805,Star Wars: The Phantom Menace (Episode I),George Lucas,"Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd, Pernilla August, Frank Oz",United States,1999,False,136,"Action, Adventure, Sci-Fi","Jedi discover Anakin Skywalker, a boy unusually strong in the Force."
